@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04BC82A586CB588F283D4BD147CEDE56 /* Pods-EilBluetooth_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0712171EB2BE4BC1E962FE67613B5067 /* Pods-EilBluetooth_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27098174290CF78229876F790AA36D01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		317D593B1888B6B8EE14F6D7ADB0F4C8 /* Pods-EilBluetooth_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1FA4EFF33AF147A781C02AF2ABF649 /* Pods-EilBluetooth_Example-dummy.m */; };
+		410564EBE711672B7CA5AE727C8ACC2D /* Pods-EilBluetooth_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E5402076A7DF27A050920B66C40C63 /* Pods-EilBluetooth_Tests-dummy.m */; };
+		6AE28244472B189C34441E342312BDE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6D96D526AB18434D2FE3C7E8735B6BE1 /* Pods-EilBluetooth_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 373448BF5FE2E1069B5F1BD0BC70C5CD /* Pods-EilBluetooth_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF85F17B36420C54560568EB737FE540 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C3F0E0FE758D0663A5D058EC01F719F7 /* EilBluetooth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5554E9A2B9583EBC6CBE6CB5E5750336 /* EilBluetooth-dummy.m */; };
+		D5F5B8753EF2ACF20C03BA4DAEE0B5A7 /* EilBluetooth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47A4E1128B665F58DEF7F8CDD7D49E8A /* EilBluetooth-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F72AA0CF03493547C586FB31079CE92E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3592A1322CC8A1D29C96D0C056B69503 /* ReplaceMe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E6F904893C9604429CD4402461FDB02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4D9F1A11373C102515CA7B7306D7FA2;
+			remoteInfo = EilBluetooth;
+		};
+		C63C41CE737E59B3C022D98EDB1159FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 582566AABB93EB009706179724239A11;
+			remoteInfo = "Pods-EilBluetooth_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		032E5D37B2167D2EFB2BBFABFEE38101 /* EilBluetooth-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EilBluetooth-Info.plist"; sourceTree = "<group>"; };
+		0712171EB2BE4BC1E962FE67613B5067 /* Pods-EilBluetooth_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EilBluetooth_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0B81A1EE010307C59FAE902BE6CA1BCB /* Pods-EilBluetooth_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EilBluetooth_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3592A1322CC8A1D29C96D0C056B69503 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = EilBluetooth/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		35CC00DF033E962E48DA840CDEB9FA68 /* Pods-EilBluetooth_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EilBluetooth_Example.modulemap"; sourceTree = "<group>"; };
+		373448BF5FE2E1069B5F1BD0BC70C5CD /* Pods-EilBluetooth_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EilBluetooth_Example-umbrella.h"; sourceTree = "<group>"; };
+		3E34400E1C8DB3FB32B13A0932C098BB /* Pods-EilBluetooth_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EilBluetooth_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		416D28BD9E7B513C9DA9C69914E8D70B /* EilBluetooth.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EilBluetooth.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		47A4E1128B665F58DEF7F8CDD7D49E8A /* EilBluetooth-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EilBluetooth-umbrella.h"; sourceTree = "<group>"; };
+		4975D1626C01927F660C82FCD7A5BB0B /* Pods_EilBluetooth_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EilBluetooth_Example.framework; path = "Pods-EilBluetooth_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54BC146375ABE50F06317BF9A56D7E2C /* Pods-EilBluetooth_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EilBluetooth_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5554E9A2B9583EBC6CBE6CB5E5750336 /* EilBluetooth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EilBluetooth-dummy.m"; sourceTree = "<group>"; };
+		614862770754BBDEEF818A9BCF4C6049 /* Pods-EilBluetooth_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EilBluetooth_Tests-Info.plist"; sourceTree = "<group>"; };
+		6A095117CC89C124A490FD72847F8633 /* Pods_EilBluetooth_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EilBluetooth_Tests.framework; path = "Pods-EilBluetooth_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		79EDBFDEAE80FDC909012A29D91A92F1 /* EilBluetooth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EilBluetooth.debug.xcconfig; sourceTree = "<group>"; };
+		81C149861F57D13625151836A1B46F1D /* Pods-EilBluetooth_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EilBluetooth_Example-Info.plist"; sourceTree = "<group>"; };
+		85BE96249977CB23EB5DA5CD445812F6 /* EilBluetooth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EilBluetooth.framework; path = EilBluetooth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1FA4EFF33AF147A781C02AF2ABF649 /* Pods-EilBluetooth_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EilBluetooth_Example-dummy.m"; sourceTree = "<group>"; };
+		982E6758B14A3299DE6A59B2CE35E553 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9ADE9597DA9C0C3FF4DE536B9DBB95E4 /* Pods-EilBluetooth_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EilBluetooth_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F95FDF64B4E7CFC097884D2AD72B87B /* EilBluetooth.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EilBluetooth.modulemap; sourceTree = "<group>"; };
+		A3ACD3BA12B49161FA0C5CEB031A34BB /* Pods-EilBluetooth_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EilBluetooth_Tests.modulemap"; sourceTree = "<group>"; };
+		B3B42677B0DC83980F75C17369B82DC0 /* Pods-EilBluetooth_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EilBluetooth_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B837342D424386198D4EF7C105890D49 /* Pods-EilBluetooth_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EilBluetooth_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BD2FF2D0EF21943C8D6C8A139A662CCB /* Pods-EilBluetooth_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EilBluetooth_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0B77F6067CF18BA6C781D7607F54F09 /* EilBluetooth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EilBluetooth.release.xcconfig; sourceTree = "<group>"; };
+		C7E5402076A7DF27A050920B66C40C63 /* Pods-EilBluetooth_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EilBluetooth_Tests-dummy.m"; sourceTree = "<group>"; };
+		C947B9AFFB55D503813F52E6F3AF507A /* EilBluetooth-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EilBluetooth-prefix.pch"; sourceTree = "<group>"; };
+		D85A9E725BF7AC3CF68D8B6BBA07979E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F37C72ED804FD803F24D12A30C0A4AB0 /* Pods-EilBluetooth_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EilBluetooth_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F960511531157379E6F770B790E8C807 /* Pods-EilBluetooth_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EilBluetooth_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		769EBA5392F7FB4531771627B7B50DD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27098174290CF78229876F790AA36D01 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDFAFE2AE0FAAF426A140B9EFF129E16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF85F17B36420C54560568EB737FE540 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9BEFBA0BDACD4791C12001EBEB32D07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AE28244472B189C34441E342312BDE8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7FED0F4B95A726D4F91D28A36381CA32 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				416D28BD9E7B513C9DA9C69914E8D70B /* EilBluetooth.podspec */,
+				982E6758B14A3299DE6A59B2CE35E553 /* LICENSE */,
+				D85A9E725BF7AC3CF68D8B6BBA07979E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8060D13D1DBCB230B84B1A718887F7E5 /* Pods-EilBluetooth_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A3ACD3BA12B49161FA0C5CEB031A34BB /* Pods-EilBluetooth_Tests.modulemap */,
+				F960511531157379E6F770B790E8C807 /* Pods-EilBluetooth_Tests-acknowledgements.markdown */,
+				54BC146375ABE50F06317BF9A56D7E2C /* Pods-EilBluetooth_Tests-acknowledgements.plist */,
+				C7E5402076A7DF27A050920B66C40C63 /* Pods-EilBluetooth_Tests-dummy.m */,
+				614862770754BBDEEF818A9BCF4C6049 /* Pods-EilBluetooth_Tests-Info.plist */,
+				0712171EB2BE4BC1E962FE67613B5067 /* Pods-EilBluetooth_Tests-umbrella.h */,
+				BD2FF2D0EF21943C8D6C8A139A662CCB /* Pods-EilBluetooth_Tests.debug.xcconfig */,
+				B837342D424386198D4EF7C105890D49 /* Pods-EilBluetooth_Tests.release.xcconfig */,
+			);
+			name = "Pods-EilBluetooth_Tests";
+			path = "Target Support Files/Pods-EilBluetooth_Tests";
+			sourceTree = "<group>";
+		};
+		974A6B147B34C198713F1C6BC505BE41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85BE96249977CB23EB5DA5CD445812F6 /* EilBluetooth.framework */,
+				4975D1626C01927F660C82FCD7A5BB0B /* Pods_EilBluetooth_Example.framework */,
+				6A095117CC89C124A490FD72847F8633 /* Pods_EilBluetooth_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E9381D1AEF67D82FCBBD00E70C41A93 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D51D0DBE363BFA795DECA556E7839951 /* Pods-EilBluetooth_Example */,
+				8060D13D1DBCB230B84B1A718887F7E5 /* Pods-EilBluetooth_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B1F286B8CBAE902F85DEB2E29ED882EB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F95FDF64B4E7CFC097884D2AD72B87B /* EilBluetooth.modulemap */,
+				5554E9A2B9583EBC6CBE6CB5E5750336 /* EilBluetooth-dummy.m */,
+				032E5D37B2167D2EFB2BBFABFEE38101 /* EilBluetooth-Info.plist */,
+				C947B9AFFB55D503813F52E6F3AF507A /* EilBluetooth-prefix.pch */,
+				47A4E1128B665F58DEF7F8CDD7D49E8A /* EilBluetooth-umbrella.h */,
+				79EDBFDEAE80FDC909012A29D91A92F1 /* EilBluetooth.debug.xcconfig */,
+				C0B77F6067CF18BA6C781D7607F54F09 /* EilBluetooth.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EilBluetooth";
+			sourceTree = "<group>";
+		};
+		B58D68674B46AE8AABAFA7DFA9A069D8 /* EilBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				3592A1322CC8A1D29C96D0C056B69503 /* ReplaceMe.swift */,
+				7FED0F4B95A726D4F91D28A36381CA32 /* Pod */,
+				B1F286B8CBAE902F85DEB2E29ED882EB /* Support Files */,
+			);
+			name = EilBluetooth;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				EFEE3D3CC1BE4EB062E785D6790A16A6 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				974A6B147B34C198713F1C6BC505BE41 /* Products */,
+				9E9381D1AEF67D82FCBBD00E70C41A93 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D51D0DBE363BFA795DECA556E7839951 /* Pods-EilBluetooth_Example */ = {
+			isa = PBXGroup;
+			children = (
+				35CC00DF033E962E48DA840CDEB9FA68 /* Pods-EilBluetooth_Example.modulemap */,
+				9ADE9597DA9C0C3FF4DE536B9DBB95E4 /* Pods-EilBluetooth_Example-acknowledgements.markdown */,
+				0B81A1EE010307C59FAE902BE6CA1BCB /* Pods-EilBluetooth_Example-acknowledgements.plist */,
+				8E1FA4EFF33AF147A781C02AF2ABF649 /* Pods-EilBluetooth_Example-dummy.m */,
+				B3B42677B0DC83980F75C17369B82DC0 /* Pods-EilBluetooth_Example-frameworks.sh */,
+				81C149861F57D13625151836A1B46F1D /* Pods-EilBluetooth_Example-Info.plist */,
+				373448BF5FE2E1069B5F1BD0BC70C5CD /* Pods-EilBluetooth_Example-umbrella.h */,
+				3E34400E1C8DB3FB32B13A0932C098BB /* Pods-EilBluetooth_Example.debug.xcconfig */,
+				F37C72ED804FD803F24D12A30C0A4AB0 /* Pods-EilBluetooth_Example.release.xcconfig */,
+			);
+			name = "Pods-EilBluetooth_Example";
+			path = "Target Support Files/Pods-EilBluetooth_Example";
+			sourceTree = "<group>";
+		};
+		EFEE3D3CC1BE4EB062E785D6790A16A6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B58D68674B46AE8AABAFA7DFA9A069D8 /* EilBluetooth */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1DB643050DE1A63A49F3E5C53774EDAA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BC82A586CB588F283D4BD147CEDE56 /* Pods-EilBluetooth_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A0BF049288BE8D9CE1038D67CD965D9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D96D526AB18434D2FE3C7E8735B6BE1 /* Pods-EilBluetooth_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12152D70DFB4117D49718955FD908E8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F5B8753EF2ACF20C03BA4DAEE0B5A7 /* EilBluetooth-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		582566AABB93EB009706179724239A11 /* Pods-EilBluetooth_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96C94D3683E0DC921858A10A7CEB1A18 /* Build configuration list for PBXNativeTarget "Pods-EilBluetooth_Example" */;
+			buildPhases = (
+				8A0BF049288BE8D9CE1038D67CD965D9 /* Headers */,
+				75ADB5EF143C7D8ED5721719D52EA14B /* Sources */,
+				E9BEFBA0BDACD4791C12001EBEB32D07 /* Frameworks */,
+				D4342E9264BFA804362D6AE3A045A48C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE998F17E560222F49CD67D22E6C9706 /* PBXTargetDependency */,
+			);
+			name = "Pods-EilBluetooth_Example";
+			productName = "Pods-EilBluetooth_Example";
+			productReference = 4975D1626C01927F660C82FCD7A5BB0B /* Pods_EilBluetooth_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C4D9F1A11373C102515CA7B7306D7FA2 /* EilBluetooth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DF00C00D761B3F027823228CDD8F407 /* Build configuration list for PBXNativeTarget "EilBluetooth" */;
+			buildPhases = (
+				D12152D70DFB4117D49718955FD908E8 /* Headers */,
+				FD8C8E5EB8CAA3C84037FA6BAFFD3D5F /* Sources */,
+				769EBA5392F7FB4531771627B7B50DD1 /* Frameworks */,
+				65E016FBB4C1E13DEA62F1ED8A063E00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EilBluetooth;
+			productName = EilBluetooth;
+			productReference = 85BE96249977CB23EB5DA5CD445812F6 /* EilBluetooth.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC91171969E335AC4B6E088A7AC9E9E3 /* Pods-EilBluetooth_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0A8B19A64ED5D4275BCACF8F25B3A68 /* Build configuration list for PBXNativeTarget "Pods-EilBluetooth_Tests" */;
+			buildPhases = (
+				1DB643050DE1A63A49F3E5C53774EDAA /* Headers */,
+				71791B023EF66A4EE2A6FEC65DFA82AE /* Sources */,
+				BDFAFE2AE0FAAF426A140B9EFF129E16 /* Frameworks */,
+				39247FC853191E97A02484AF08428802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15CCCC778679808F39E28D47B684C85B /* PBXTargetDependency */,
+			);
+			name = "Pods-EilBluetooth_Tests";
+			productName = "Pods-EilBluetooth_Tests";
+			productReference = 6A095117CC89C124A490FD72847F8633 /* Pods_EilBluetooth_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 974A6B147B34C198713F1C6BC505BE41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4D9F1A11373C102515CA7B7306D7FA2 /* EilBluetooth */,
+				582566AABB93EB009706179724239A11 /* Pods-EilBluetooth_Example */,
+				CC91171969E335AC4B6E088A7AC9E9E3 /* Pods-EilBluetooth_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39247FC853191E97A02484AF08428802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E016FBB4C1E13DEA62F1ED8A063E00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4342E9264BFA804362D6AE3A045A48C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71791B023EF66A4EE2A6FEC65DFA82AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410564EBE711672B7CA5AE727C8ACC2D /* Pods-EilBluetooth_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75ADB5EF143C7D8ED5721719D52EA14B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				317D593B1888B6B8EE14F6D7ADB0F4C8 /* Pods-EilBluetooth_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD8C8E5EB8CAA3C84037FA6BAFFD3D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3F0E0FE758D0663A5D058EC01F719F7 /* EilBluetooth-dummy.m in Sources */,
+				F72AA0CF03493547C586FB31079CE92E /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15CCCC778679808F39E28D47B684C85B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EilBluetooth_Example";
+			target = 582566AABB93EB009706179724239A11 /* Pods-EilBluetooth_Example */;
+			targetProxy = C63C41CE737E59B3C022D98EDB1159FD /* PBXContainerItemProxy */;
+		};
+		DE998F17E560222F49CD67D22E6C9706 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EilBluetooth;
+			target = C4D9F1A11373C102515CA7B7306D7FA2 /* EilBluetooth */;
+			targetProxy = 2E6F904893C9604429CD4402461FDB02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		064AE40363DDDA3AB42FAEAEEBE62708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0B77F6067CF18BA6C781D7607F54F09 /* EilBluetooth.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EilBluetooth/EilBluetooth-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EilBluetooth/EilBluetooth-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EilBluetooth/EilBluetooth.modulemap";
+				PRODUCT_MODULE_NAME = EilBluetooth;
+				PRODUCT_NAME = EilBluetooth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2415D20E05FFEDF73DCA5604C28C8BCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79EDBFDEAE80FDC909012A29D91A92F1 /* EilBluetooth.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EilBluetooth/EilBluetooth-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EilBluetooth/EilBluetooth-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EilBluetooth/EilBluetooth.modulemap";
+				PRODUCT_MODULE_NAME = EilBluetooth;
+				PRODUCT_NAME = EilBluetooth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5A6DB91EE654387D59E2F594CD6833D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F37C72ED804FD803F24D12A30C0A4AB0 /* Pods-EilBluetooth_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EilBluetooth_Example/Pods-EilBluetooth_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EilBluetooth_Example/Pods-EilBluetooth_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		915102E7A0E198F559CB365724ECA83F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD2FF2D0EF21943C8D6C8A139A662CCB /* Pods-EilBluetooth_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EilBluetooth_Tests/Pods-EilBluetooth_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EilBluetooth_Tests/Pods-EilBluetooth_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DE9E3090790EF709EB94DAF0B6B54B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E34400E1C8DB3FB32B13A0932C098BB /* Pods-EilBluetooth_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EilBluetooth_Example/Pods-EilBluetooth_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EilBluetooth_Example/Pods-EilBluetooth_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F359547597DFBA7E8958D4B0C7F5F531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B837342D424386198D4EF7C105890D49 /* Pods-EilBluetooth_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EilBluetooth_Tests/Pods-EilBluetooth_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EilBluetooth_Tests/Pods-EilBluetooth_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DF00C00D761B3F027823228CDD8F407 /* Build configuration list for PBXNativeTarget "EilBluetooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2415D20E05FFEDF73DCA5604C28C8BCE /* Debug */,
+				064AE40363DDDA3AB42FAEAEEBE62708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96C94D3683E0DC921858A10A7CEB1A18 /* Build configuration list for PBXNativeTarget "Pods-EilBluetooth_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE9E3090790EF709EB94DAF0B6B54B4A /* Debug */,
+				5A6DB91EE654387D59E2F594CD6833D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0A8B19A64ED5D4275BCACF8F25B3A68 /* Build configuration list for PBXNativeTarget "Pods-EilBluetooth_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				915102E7A0E198F559CB365724ECA83F /* Debug */,
+				F359547597DFBA7E8958D4B0C7F5F531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

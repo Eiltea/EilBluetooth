@@ -1,0 +1,6 @@
+framework module EilBluetooth {
+  umbrella header "EilBluetooth-umbrella.h"
+
+  export *
+  module * { export * }
+}

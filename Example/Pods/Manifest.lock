@@ -1,0 +1,16 @@
+PODS:
+  - EilBluetooth (0.1.0)
+
+DEPENDENCIES:
+  - EilBluetooth (from `../`)
+
+EXTERNAL SOURCES:
+  EilBluetooth:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EilBluetooth: f2f32b695846f415f2ce892e8404e9f2672be340
+
+PODFILE CHECKSUM: fde5a923c68d5911829996c3ea6f9f91d8f6cc8b
+
+COCOAPODS: 1.10.1
